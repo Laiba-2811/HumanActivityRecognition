@@ -8,22 +8,22 @@ implemented the codes and implementation details to make both the reproduction
 of the results reported in this paper. Our work on UniMiB-SHAR dataset highlight
 the effectiveness of deep-learning architectures involving Multi-Layer-Perceptron
 (MLP), Convolutional Neural Network (CNN) to obtain features characterising in
-the data.
-1 Introduction
+the data.<br>
+1 Introduction<br>
 Human Activity Recognition (HAR) is a research topic which has attracted an increasing amount of
 attention from the research community, in the wake of the development and spread of increasingly
 powerful and affordable mobile devices or wearable sensors. The main goal of HAR is automatic
 detection and recognition of activities from the analysis of data acquired by sensors. HAR finds
 potential applications in numerous areas, ranging from surveillance tasks for security, to assistive
-living and improvement of the quality of life or gaming.[1].
+living and improvement of the quality of life or gaming.[1].<br>
 1.1 UnimiB-SHAR:
 The UniMiB-SHAR dataset (University of Milano Bicocca Smartphone-based HAR) aggregates
 data from 30 subjects (6 male and 24 female) acquired using the 3D accelerometer of a Samsung
 Galaxy Nexus I9250 smartphone (S = 3). The data are sampled at a frequency of 50 Hz, and split in
 17 different classes, comprising 8ADLs and 7 “falling” actions as shown in Table 1. Each activity is
 either performed 2 or 6 times, with half of them having the subject place the smartphone in his/her
-left pocket, and the other half in his/her right pocket.
-1.2 Multi-Layer Perceptron:
+left pocket, and the other half in his/her right pocket.<br>
+1.2 Multi-Layer Perceptron:<br>
 Multi-Layer-Perceptron (MLP) is the simplest class of ANN, and involves a hierarchical organisa-
 tion of neurons in layers. MLPs comprise at least three fully-connected layers (also called dense
 layers) including an input, one or more intermediate (hidden) and an output layer, as shown in Fig-
